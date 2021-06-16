@@ -12,6 +12,14 @@
     "email": "rune.moskvil.lyngaas@vtfk.no",
     "url": "https://github.com/runely"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtfk/azf-schools-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vtfk/azf-schools-api/issues"
+  },
+  "homepage": "https://github.com/vtfk/azf-schools-api#readme",
   "dependencies": {
     "vtfk-schools-info": "1.1.2"
   }
