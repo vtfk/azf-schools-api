@@ -24,7 +24,8 @@
     "vtfk-schools-info": "1.1.2"
   },
   "devDependencies": {
-    "jest": "27.0.4"
+    "jest": "27.0.4",
+    "standard": "16.0.3"
   },
   "standard": {
     "env": [
