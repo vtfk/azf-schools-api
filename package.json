@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "API for VTFK schools info",
   "scripts": {
-    "test": "standard",
+    "test": "standard && jest",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm i",
     "start": "func start"
   },
