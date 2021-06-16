@@ -8,5 +8,7 @@
     "start": "func start"
   },
   "author": "Rune Moskvil Lyngås <rune.moskvil.lyngaas@vtfk.no> (https://github.com/runely)",
-  "dependencies": {}
+  "dependencies": {
+    "vtfk-schools-info": "1.1.2"
+  }
 }
