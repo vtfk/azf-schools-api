@@ -1,5 +1,5 @@
 {
-  "name": "azf-schools-info",
+  "name": "azf-schools-api",
   "version": "1.0.0",
   "description": "API for VTFK schools info",
   "scripts": {
