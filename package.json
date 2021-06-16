@@ -22,5 +22,19 @@
   "homepage": "https://github.com/vtfk/azf-schools-api#readme",
   "dependencies": {
     "vtfk-schools-info": "1.1.2"
+  },
+  "devDependencies": {
+    "jest": "27.0.4"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "jest": {
+    "testMatch": [
+      "**/tests/**/*test.[jt]s?(x)",
+      "**/?(*.)+.(spec|test).[jt]s?(x)"
+    ]
   }
 }
