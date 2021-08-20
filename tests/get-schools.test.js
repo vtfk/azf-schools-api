@@ -8,13 +8,6 @@ test('Search for "Bø vidaregåande skule" should return Array of 1 item', () =>
   expect(result.length).toBe(1)
 })
 
-test('Search for "Bamble videregående skole" should return Array of 2 items', () => {
-  const schools = schoolsInfo({ officialName: 'Bamble videregående skole' })
-  const result = getSchools(schools)
-  expect(Array.isArray(result)).toBe(true)
-  expect(result.length).toBe(2)
-})
-
 test('Search for a school that doesnt exist should return Array of 0 items', () => {
   const schools = schoolsInfo({ officialName: 'Livets harde skole' })
   const result = getSchools(schools)
