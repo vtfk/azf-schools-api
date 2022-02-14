@@ -33,3 +33,7 @@ No more needed to get all schools
   "limit": 3
 }
 ```
+
+## E18
+
+To support [E18](https://github.com/vtfk/e18-node#usage), add `E18_URL`, `E18_KEY`, `E18_SYSTEM` and `E18_EMPTY_JOB` to your Application Settings
