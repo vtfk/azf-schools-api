@@ -19,7 +19,8 @@
 name: Deploy to Azure Functions
 
 on:
-  push:
+  release:
+    types: [published]
     branches: [main]
 
 env:
