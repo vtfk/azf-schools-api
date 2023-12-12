@@ -8,8 +8,9 @@ module.exports = async (context, req) => {
   const status = getStatusCode(schools)
   const data = status === 200 ? schools : undefined
   const error = status !== 200 ? schools : undefined
-
-  await roadRunner(req, { status: status === 200 ? 'completed' : 'failed', data, error }, context)
+  if (process.env.E18_ENABLED) {
+    await roadRunner(req, { status: status === 200 ? 'completed' : 'failed', data, error }, context)
+  }
   return {
     status,
     body: schools

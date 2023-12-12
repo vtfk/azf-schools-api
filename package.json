@@ -22,7 +22,8 @@
   "homepage": "https://github.com/vtfk/azf-schools-api#readme",
   "dependencies": {
     "@vtfk/e18": "2.1.5",
-    "vtfk-schools-info": "3.2.0"
+    "@vtfk/logger": "^6.0.1",
+    "vtfk-schools-info": "^3.3.0"
   },
   "devDependencies": {
     "jest": "27.5.1",
